@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import './index.css';
 import TextToSpeech from './components/TextToSpeech';
 import { Globe, Volume2 } from 'lucide-react';
