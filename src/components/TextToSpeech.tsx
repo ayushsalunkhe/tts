@@ -137,7 +137,7 @@ const TextToSpeech = () => {
         </div>
         <select
           id="language"
-          className="w-full p-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 focus:ring-2 focus:ring-indigo-500 dark:focus:ring-indigo-400 focus:border-indigo-500 dark:focus:border-indigo-400 outline-none transition"
+          className="w-full p-3 text-base border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 focus:ring-2 focus:ring-indigo-500 dark:focus:ring-indigo-400 focus:border-indigo-500 dark:focus:border-indigo-400 outline-none transition appearance-none min-h-[48px] mobile:min-h-[44px]"
           value={selectedLanguage}
           onChange={(e) => setSelectedLanguage(e.target.value)}
           disabled={loadingVoices}
@@ -161,7 +161,7 @@ const TextToSpeech = () => {
         </div>
         <select
           id="voice"
-          className="w-full p-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 focus:ring-2 focus:ring-indigo-500 dark:focus:ring-indigo-400 focus:border-indigo-500 dark:focus:border-indigo-400 outline-none transition"
+          className="w-full p-3 text-base border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 focus:ring-2 focus:ring-indigo-500 dark:focus:ring-indigo-400 focus:border-indigo-500 dark:focus:border-indigo-400 outline-none transition appearance-none min-h-[48px] mobile:min-h-[44px]"
           value={selectedVoice}
           onChange={(e) => setSelectedVoice(e.target.value)}
           disabled={loadingVoices || !selectedLanguage}
